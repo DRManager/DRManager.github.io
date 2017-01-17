@@ -1,0 +1,294 @@
+    <!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Jente Hidskes">
+        <meta name="description" content="Personal website">
+        <meta name="generator" content="Hugo 0.16" />
+
+        <title>Deploying Hugo-generated websites on personal GitHub Pages &middot; Jente Hidskes&#39; personal website</title>
+
+        <link rel="shortcut icon" href="https://hjdskes.github.io/images/favicon.ico">
+        <link rel="stylesheet" href="https://hjdskes.github.io/css/style.css">
+        <link rel="stylesheet" href="https://hjdskes.github.io/css/highlight.css">
+        <link rel="stylesheet" href="https://hjdskes.github.io//css/font-awesome.min.css">
+
+        
+            <link href="https://hjdskes.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Jente Hidskes&#39; personal website"/>
+        
+    </head>
+
+    <body>
+    <nav class="main-nav">
+    
+        <a href='https://hjdskes.github.io/'><span class="arrow">←</span>Home</a>
+    
+
+    <a href='https://hjdskes.github.io/projects/'>Projects</a>
+    <a href='https://hjdskes.github.io/about/'>About</a>
+
+    
+        <a class="cta" href="https://hjdskes.github.io/index.xml">Subscribe</a>
+    
+
+    <a class="icon-hamburger" href="javascript:void(0);" onclick="toggleMenu()">
+        <i class="fa fa-bars fa-lg"></i>
+    </a>
+</nav>
+
+
+    <section class="wrapper">
+        <article class="post">
+            <header>
+                <h1>Deploying Hugo-generated websites on personal GitHub Pages</h1>
+                <h2 class="headline">
+                    August 16, 2016
+                    <br/>
+                    
+                </h2>
+            </header>
+            <section id="post-body">
+                
+
+<p><em><q>&ldquo;Hello, World!&rdquo;</q></em></p>
+
+<p>As this is the first blog post on this website (and indeed, by myself), the
+introduction had to be done. I&rsquo;ll leave it at this, though. If you want to know
+more about me, you can do that <a href="/about/index.html">here</a>.</p>
+
+<p>This website is created using the <a href="https://gohugo.io/">Hugo</a> static website
+generator. You define the layout of your pages using regular HTML (combined with
+Hugo&rsquo;s <a href="https://gohugo.io/templates/overview/">templates</a>), CSS and JavaScript
+and you write your pages&rsquo; contents using Markdown. Hugo takes these source files
+and generates the HTML files for you. All you have to do afterwards is deploy
+these files on your server.</p>
+
+<p><a href="https://pages.github.com">GitHub Pages</a> is a service by GitHub allowing you to
+create websites for yourself, your organization and your projects. These
+websites are hosted directly in a GitHub repository under your control; simply
+pushing changes to these repositories updates the website.</p>
+
+<p>This blog post explains how I combined the two: the website&rsquo;s contents are
+created using Hugo and are deployed through GitHub Pages.</p>
+
+<h3 id="deploying-your-hugo-generated-website-on-github-pages">Deploying your Hugo-generated website on GitHub Pages</h3>
+
+<p>There is a <a href="https://gohugo.io/tutorials/github-pages-blog/">good tutorial</a> on
+deploying your Hugo-generated website on GitHub Pages on the Hugo website. The
+scenario described there, however, does not really fit my use-case.</p>
+
+<p>The tutorial applies to a GitHub Pages website belonging to a project. This
+means that the website needs to be pushed into the <code>gh-pages</code> branch under
+said project&rsquo;s GitHub repository.</p>
+
+<p>In my case, I&rsquo;m using Hugo to generate a personal website. This means that I
+have a <code>$USERNAME.github.io</code> repository, and consequently that my website&rsquo;s
+contents need to be pushed into that repository&rsquo;s <code>master</code> branch.</p>
+
+<p>The above mentioned tutorial does have a small section on hosting the website on
+personal GitHub Pages, but I find their solution to use two repositories (one
+for the sources and another for the generated website) to be sub-par. A Google
+search led me to
+<a href="http://life.beyondrails.com/blog/2014/12/14/setting-up-and-automating-my-hugo-blog-deployment-to-github-pages/">this</a>
+blog post where the author struggled with the same issue. What follows
+is my solution, combining both tutorials.</p>
+
+<p>As mentioned, I have a <code>$USERNAME.github.io</code> repository. My website&rsquo;s content
+should be deployed into the <code>master</code> branch, starting with a valid <code>index.html</code>
+in this branch&rsquo;s root. Not wanting to mix source- and generated files, I
+intended to keep Hugo&rsquo;s default setting to generate the website into a separate
+directory called <code>public/</code>. As you can see, these two options are at odds.</p>
+
+<p>I therefore adopted the <code>git subtree</code> approach as initially suggested in the
+Hugo tutorial: have a &ldquo;source&rdquo; branch for the source files, which contains a
+<code>public/</code> folder mirroring the root of the <code>master</code> branch containing only the
+generated website. The workflow, then, would be something like this:</p>
+
+<ol>
+<li>Make a change to the website;</li>
+<li>Commit those changes;</li>
+<li>Use Hugo to generate the new website;</li>
+<li>Push the new <code>public/</code> folder to the &ldquo;source&rdquo; branch;</li>
+<li>Push the contents of the new  <code>public/</code> folder to the <code>master</code> branch using
+<code>git subtree</code>.</li>
+</ol>
+
+<p>This would allow me to have one branch for my source files, and to use the
+<code>master</code> branch for the generated website only, resolving my issue. Steps two
+to five can be automated, although personally I prefer to do step two myself.
+However, for steps three to five I have written a small script, <code>deploy.sh</code>:</p>
+
+<pre><code class="language-bash">#!/usr/bin/env bash
+
+# This script allows you to easily and quickly generate and deploy your website
+# using Hugo to your personal GitHub Pages repository. This script requires a
+# certain configuration, run the `setup.sh` script to configure this. See
+# https://hjdskes.github.io/blog/deploying-hugo-on-personal-github-pages/index.html
+# for more information.
+
+# Set the English locale for the `date` command.
+export LC_TIME=en_US.UTF-8
+
+# GitHub username.
+USERNAME=hjdskes
+# Name of the branch containing the Hugo source files.
+SOURCE=hugo
+# The commit message.
+MESSAGE=&quot;Site rebuild $(date)&quot;
+
+msg() {
+    printf &quot;\033[1;32m :: %s\n\033[0m&quot; &quot;$1&quot;
+}
+
+msg &quot;Pulling down the \`master\` branch into \`public\` to help avoid merge conflicts&quot;
+git subtree pull --prefix=public \
+	git@github.com:$USERNAME/$USERNAME.github.io.git origin master -m &quot;Merge origin master&quot;
+
+msg &quot;Building the website&quot;
+hugo
+
+msg &quot;Pushing the updated \`public\` folder to the \`$SOURCE\` branch&quot;
+git add public
+git commit -m &quot;$MESSAGE&quot;
+git push origin &quot;$SOURCE&quot;
+
+msg &quot;Pushing the updated \`public\` folder to the \`master\` branch&quot;
+git subtree push --prefix=public \
+	git@github.com:$USERNAME/$USERNAME.github.io.git master
+</code></pre>
+
+<p>I have written a second script to take care of the setup, in case I ever need
+to repeat the steps for another website. This script needs to be run only once;
+afterwards, <code>deploy.sh</code> does all the work. The script will create an empty,
+orphaned <code>master</code> branch, which from then on is not supposed to be touched
+manually. To start with a clean history, I have opted to delete the existing
+<code>master</code> branch (both local and remote), if any. Note that GitHub does not allow
+you to delete the default branch, which, by default (pun intended) is the
+<code>master</code> branch. Since I never touch the <code>master</code> branch, I changed the default
+branch to the &ldquo;source&rdquo; branch, allowing me to delete the <code>master</code> branch. To
+change the default branch, open your GitHub repository and go to Settings →
+Branches.</p>
+
+<div class="warning">
+    <p> This script will delete the <code>public/</code> directory.
+Make sure any files you want to keep are backed up!</p>
+</div>
+
+
+<pre><code class="language-bash">#!/usr/bin/env bash
+
+# This script does the required work to set up your personal GitHub Pages
+# repository for deployment using Hugo. Run this script only once -- when the
+# setup has been done, run the `deploy.sh` script to deploy changes and update
+# your website. See
+# https://hjdskes.github.io/blog/deploying-hugo-on-personal-github-pages/index.html
+# for more information.
+
+# GitHub username
+USERNAME=hjdskes
+# Name of the branch containing the Hugo source files.
+SOURCE=hugo
+
+msg() {
+    printf &quot;\033[1;32m :: %s\n\033[0m&quot; &quot;$1&quot;
+}
+
+msg &quot;Deleting the \`master\` branch&quot;
+git branch -D master
+git push origin --delete master
+
+msg &quot;Creating an empty, orphaned \`master\` branch&quot;
+git checkout --orphan master
+git rm --cached $(git ls-files)
+
+msg &quot;Grabbing one file from the \`$SOURCE\` branch so that a commit can be made&quot;
+git checkout &quot;$SOURCE&quot; README.md
+git commit -m &quot;Initial commit on master branch&quot;
+git push origin master
+
+msg &quot;Returning to the \`$SOURCE\` branch&quot;
+git checkout -f &quot;$SOURCE&quot;
+
+msg &quot;Removing the \`public\` folder to make room for the \`master\` subtree&quot;
+rm -rf public
+git add -u
+git commit -m &quot;Remove stale public folder&quot;
+
+msg &quot;Adding the new \`master\` branch as a subtree&quot;
+git subtree add --prefix=public \
+	git@github.com:$USERNAME/$USERNAME.github.io.git master --squash
+
+msg &quot;Pulling down the just committed file to help avoid merge conflicts&quot;
+git subtree pull --prefix=public \
+	git@github.com:$USERNAME/$USERNAME.github.io.git master
+</code></pre>
+
+<p>You can find the structure and setup in use in <a href="https://github.com/Hjdskes/hjdskes.github.io">this website&rsquo;s
+repository</a>. If any of the above is
+unclear, feel free to send me an <a href="mailto:hjdskes@gmail.com">email</a> and I&rsquo;ll try
+my best to update this post.</p>
+
+            </section>
+        </article>
+        <footer id="post-meta" class="clearfix">
+            
+            <img class="avatar 2x" src="https://hjdskes.github.io/images/avatar.png" alt="avatar"/>
+            <div>
+                <span class="dark">Jente Hidskes</span>
+                <span>Programming &amp; open-source enthusiast</span>
+            </div>
+            
+            <section id="sharing">
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fhjdskes.github.io%2fblog%2fdeploying-hugo-on-personal-gh-pages%2f%20-%20Deploying%20Hugo-generated%20websites%20on%20personal%20GitHub%20Pages%20"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            </section>
+        </footer>
+
+        <div class="post-list archive readmore">
+    <h3>Read more</h3>
+    <ul>
+        
+        
+        
+    </ul>
+</div>
+
+        <footer>
+    
+        <div id="social">
+    
+        <a class="symbol" href="https://www.github.com/Hjdskes">
+            <i class="fa fa-github"></i>
+        </a>
+    
+</div>
+
+    
+    <p class="small">
+        
+            <a href="/license/index.html">Copyright © 2016 Jente Hidskes</a>
+        
+    </p>
+</footer>
+
+    </section>
+
+    <script src="https://hjdskes.github.io/js/retina.js"></script>
+<script src="https://hjdskes.github.io/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://hjdskes.github.io/js/lock.js"></script>
+<script src="https://hjdskes.github.io/js/menu.js"></script>
+
+
+
+    </body>
+</html>
