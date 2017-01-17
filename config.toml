@@ -1,0 +1,36 @@
+baseurl = "https://drmanager.github.io/"
+relativeurls = true
+languageCode = "en-us"
+title = "Lithium Theme"
+theme = "hugo-lithium-theme"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/DRManager/DRManager.github.io"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/rdyang07"
+
+[params]
+    description = "Grammar of Process Engineering"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.9.0"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
