@@ -1,2 +1,2 @@
 # DRManager.github.io
-test
+Test RStudio + Hugo
