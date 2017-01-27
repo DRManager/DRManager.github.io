@@ -1,13 +1,373 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lithium Theme</title>
+    <title>Semi Blog</title>
     <link>/index.xml</link>
-    <description>Recent content on Lithium Theme</description>
+    <description>Recent content on Semi Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Jan 2017 20:48:51 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 05 Nov 2016 19:41:01 +0530</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Name of the work 2</title>
+      <link>/portfolio/work2/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      
+      <guid>/portfolio/work2/</guid>
+      <description>&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Name of the work 3</title>
+      <link>/portfolio/work3/</link>
+      <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
+      
+      <guid>/portfolio/work3/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Item without image</title>
+      <link>/portfolio/work4/</link>
+      <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
+      
+      <guid>/portfolio/work4/</guid>
+      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Name of the work 5</title>
+      <link>/portfolio/work5/</link>
+      <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
+      
+      <guid>/portfolio/work5/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Name of the work 6</title>
+      <link>/portfolio/work6/</link>
+      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
+      
+      <guid>/portfolio/work6/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Name of the work 7</title>
+      <link>/portfolio/work7/</link>
+      <pubDate>Sat, 05 Nov 2016 19:57:40 +0530</pubDate>
+      
+      <guid>/portfolio/work7/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Name of the work 8</title>
+      <link>/portfolio/work8/</link>
+      <pubDate>Sat, 05 Nov 2016 19:59:22 +0530</pubDate>
+      
+      <guid>/portfolio/work8/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Item with image</title>
+      <link>/portfolio/work9/</link>
+      <pubDate>Sat, 05 Nov 2016 20:02:19 +0530</pubDate>
+      
+      <guid>/portfolio/work9/</guid>
+      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Item with image</title>
+      <link>/portfolio/work10/</link>
+      <pubDate>Sat, 05 Nov 2016 20:22:08 +0530</pubDate>
+      
+      <guid>/portfolio/work10/</guid>
+      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Item with image</title>
+      <link>/portfolio/work11/</link>
+      <pubDate>Sat, 05 Nov 2016 20:23:59 +0530</pubDate>
+      
+      <guid>/portfolio/work11/</guid>
+      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+&lt;/p&gt;
+
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+
+&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;header-level-2&#34;&gt;Header Level 2&lt;/h2&gt;
+
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -95,72 +455,16 @@
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/2015/07/23/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Get in touch</title>
+      <link>/contact/</link>
+      <pubDate>Sun, 06 Nov 2016 13:00:25 +0530</pubDate>
       
-      <guid>/2015/07/23/hello-r-markdown/</guid>
-      <description>&lt;!-- BLOGDOWN-BODY-BEFORE
+      <guid>/contact/</guid>
+      <description>&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;
 
-/BLOGDOWN-BODY-BEFORE --&gt;
+&lt;p&gt;Effects present letters inquiry no an removed or friends. Desire behind latter me though in. Supposing shameless am he engrossed up additions. My possible peculiar together to. Desire so better am cannot he up before points. Remember mistaken opinions it pleasure of debating. Court front maids forty if aware their at. Chicken use are pressed removed.&lt;/p&gt;
 
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;#####../content/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;!-- BLOGDOWN-HEAD
-
-
-
-
-/BLOGDOWN-HEAD --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>/2015/01/01/lorem-ipsum/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
-      
-      <guid>/2015/01/01/lorem-ipsum/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Lorem ipsum&lt;/strong&gt; dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore &lt;em&gt;magna aliqua&lt;/em&gt;. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;p&gt;Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh.&lt;/p&gt;
 </description>
     </item>
     

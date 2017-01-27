@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Lithium Theme</title>
+    <title>Posts on Semi Blog</title>
     <link>/post/index.xml</link>
-    <description>Recent content in Posts on Lithium Theme</description>
+    <description>Recent content in Posts on Semi Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Jan 2017 21:27:10 -0800</lastBuildDate>
@@ -59,6 +59,16 @@
 
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;blogdown::new_post(&amp;quot;Post Title&amp;quot;, rmd = FALSE)
 &lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello</title>
+      <link>/2016/05/05/hello/</link>
+      <pubDate>Thu, 05 May 2016 21:49:57 -0700</pubDate>
+      
+      <guid>/2016/05/05/hello/</guid>
+      <description>&lt;p&gt;Hello World!&lt;/p&gt;
 </description>
     </item>
     

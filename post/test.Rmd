@@ -1,0 +1,6 @@
+---
+date: 2017-01-16T21:27:10-08:00
+title: test
+---
+
+This is to test new pages added.
