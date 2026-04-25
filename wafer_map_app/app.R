@@ -439,7 +439,7 @@ server <- function(input, output, session) {
       h4("Overview"),
       p("This app visualises die-level measurement results on a semiconductor
         wafer. Each coloured tile represents one die location identified by its
-        (x, y) co-ordinates on the wafer."),
+        (x, y) coordinates on the wafer."),
 
       h4("Data Format"),
       tags$ul(
